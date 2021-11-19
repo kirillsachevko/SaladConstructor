@@ -10,7 +10,7 @@ public class DBConnect {
 
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/vegetables_db?serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "Terrime83";
+    private static final String PASSWORD = "root";
     private  static final Logger log = LogManager.getLogger(DBConnect.class);
 
     public static Connection connection;
